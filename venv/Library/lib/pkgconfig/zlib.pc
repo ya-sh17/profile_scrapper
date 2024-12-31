@@ -1,0 +1,13 @@
+prefix=D:/Linkden People Scrapper - Copy/venv/Library
+exec_prefix=D:/Linkden People Scrapper - Copy/venv/Library
+libdir=D:/Linkden People Scrapper - Copy/venv/Library/lib
+sharedlibdir=D:/Linkden People Scrapper - Copy/venv/Library/lib
+includedir=D:/Linkden People Scrapper - Copy/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
